@@ -2,7 +2,7 @@ function start(){
 $("body").css("background-color", "pink");
 $("#main-menu a:first").click();
 }
-$(window).on("load", start)
+$(window).on("load", start);
 
 function loadpage(e){
     e.preventDefault();
