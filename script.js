@@ -10,6 +10,6 @@ function loadpage(e){
     $(this).addClass("active");
   
     var href = $(this).attr("href");
-    $("content").load(href);
+    $("#content").load(href);
 }
 $(document).on("click", "#main-menu a", loadpage);
